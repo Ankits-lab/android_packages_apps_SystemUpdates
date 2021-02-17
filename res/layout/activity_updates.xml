@@ -128,7 +128,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <com.dot.updater.UpdateView
+            <com.hycon.updater.UpdateView
                 android:id="@+id/updateView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

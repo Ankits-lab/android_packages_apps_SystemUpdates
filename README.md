@@ -6,7 +6,7 @@ Simple application to download and apply OTA packages.
 Server requirements
 -------------------
 The app sends `GET` requests to the URL defined by the `updater_server_url`
-resource (or the `dot.updater.uri` system property) and expects as response
+resource (or the `hycon.updater.uri` system property) and expects as response
 a JSON with the following structure:
 ```json
 {
@@ -39,7 +39,7 @@ a JSON with the following structure:
 The `datetime` attribute is the build date expressed as UNIX timestamp.  
 The `filename` attribute is the name of the file to be downloaded.  
 The `id` attribute is a string that uniquely identifies the update.  
-The `romtype` attribute is the string to be compared with the `ro.dot.releasetype` property.  
+The `romtype` attribute is the string to be compared with the `ro.hycon.releasetype` property.  
 The `size` attribute is the size of the update expressed in bytes.  
 The `url` attribute is the URL of the file to be downloaded.  
 The `version` attribute is the string to be compared with the `ro.modversion` property.  
